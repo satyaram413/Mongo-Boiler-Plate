@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title> KRI</title>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/stylemaster.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/assets/style.css" /> -->
+    <section id="contact">
+        <div class="section-content">
+            <h1>
+                <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> KRI</span>
+            </h1>
+
+        </div>
+        <div class="contact-section">
+            <div class="container">
+                <form id="form1" method="POST" action="/insert">
+                    <div class="row">
+                        <div class="col-md-4 form-line">
+                            <div class="form-group">
+                                <label for="RCL1">Risk Category L1</label>
+
+                                <select id="RCL1" name="RCL1" class="form-control">
+                                    <option value="none"> </option>
+                                    <option value="Arun">Arun</option>
+
+                                    <option value="Anand">Anand</option>
+                                    <option value="Satya">Satya</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 form-line">
+                            <div class="form-group">
+                                <label for="RCL2">Risk Category L2</label>
+
+                                <select id="RCL2" name="RCL2" class="form-control">
+                                    <option value="none"> </option>
+                                    <option value="Arun">Arun</option>
+
+                                    <option value="Anand">Anand</option>
+                                    <option value="Satya">Satya</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 form-line">
+                            <div class="form-group">
+                                <label for="RCL3">Risk Category L3</label>
+
+                                <select id="RCL3" name="RCL3" class="form-control">
+                                    <option value="none"> </option>
+                                    <option value="Arun">Arun</option>
+
+                                    <option value="Anand">Anand</option>
+                                    <option value="Satya">Satya</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-line">
+                            <div class="form-group">
+                                <label for="Loc">Location</label>
+
+                                <select id="Loc" name="Loc"class="form-control">
+                                    <option value="none"> </option>
+                                    <option value="India" India</option>
+
+                                        <option value="Australia">Australia</option>
+                                        <option value="America">America</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 form-line">
+                            <div class="form-group">
+                                <label for="BUF">Business Unit/Function</label>
+
+                                <select id="BUF" name="BUF" class="form-control">
+                                    <option value="none"> </option>
+                                    <option value="India">India</option>
+
+                                    <option value="India">India</option>
+                                    <option value="Sadn">Sydney</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-md-4 form-line">
+                                <div class="form-group">
+                                    <label for="KRI">KRI</label>
+
+                                    <select id="KRI" name="kri" class="form-control">
+                                        <option value="none"> </option>
+                                        <option value="KRI 1">KRI 1</option>
+
+                                        <option value="KRI 2">KRI 2</option>
+                                        <option value="KRI 3">KRI 3</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 form-line">
+                                <div class="form-group">
+                                    <label for="KRI Value">KRI Value</label>
+
+                                    <input class="form-control"type="text"  name="KV" id=KV>
+                                </div>
+                            </div>
+                            <div class="col-md-4 form-line">
+                                <div class="form-group">
+                                    <label for="TP">Time Period</label>
+                                    <input class="form-control" type="date" name="TP">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit"  style=" border-radius:4px;padding:7px">Push into DB</button>
+                       
+
+                </form>
+                <form id="form2" action="/show_data">
+                    <button type="submit"  style="padding:7px;border-radius:4px; margin-left:350px">View DB</button>
+                </form>
+                <!-- <form id="form3" action="/update">
+                    <button type="submit"  style="padding:7px;border-radius:4px; margin-left:350px">Update</button>
+                </form> -->
+            </div>
+        </div>
+    </section>
+</body>
+
+
+</html>

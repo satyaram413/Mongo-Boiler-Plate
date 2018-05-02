@@ -1,0 +1,22 @@
+{
+  "name": "homescreen_node",
+  "version": "1.0.0",
+  "description": "HomeScreen of Risk with Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satya Ram",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "formidable": "^1.2.1",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.6",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^3.0.1",
+    "nodemon": "^1.15.1"
+  }
+}

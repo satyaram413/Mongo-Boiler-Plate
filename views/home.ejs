@@ -1,0 +1,143 @@
+<html>
+
+<head>
+  <title> NX Risk Management</title>
+</head>
+
+<meta http-equip="content-type" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="https://bootswatch.com/4/materia/bootstrap.min.css" rel="stylesheet">
+
+<link href="/assets/css/style.css" rel="stylesheet">
+
+<body>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+  <script src="/assets/js/bar.js" rel="stylesheet">
+  </script>
+  <script src="/assets/js/line.js" rel="stylesheet">
+  </script>
+
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+  <div id="wrapper">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="home">NX Risk Management Tools</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="offerings">Our Offerings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About_Us">About Us</a>
+          </li>
+        </ul>
+        <form class="form-inline ">
+          <button class="btn btn-success btn-space " type="submit" formaction="sign.html"> Sign In</button>
+          <button class="btn btn-warning " id="register" type="submit">Register</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- <br>
+          <div class="container-fluid">
+                <img src="images/icon.png">
+                <span style="padding-left:1em;  text-decoration:overline;font-size:15px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:blue">Group Risk Officer</span> Reviewing Risk and Providing reports to organization
+                <hr style=" border-style: inset;
+        border-width: 2px;
+        border-color:red;
+        
+        margin-top:1em;
+        margin-bottom:0em ;
+        ">
+        
+            </div> -->
+
+  <div class="jumbotron" id="start_id" style="border-radius:0px; height:45em;">
+    <img id="start_img" src="../images/nx-logo.png" height="100px" weight="100px">
+    <h1 id="start_h1" style="color:white;">
+      Sit back and relax,
+      <br>while NX takes care of all your risks. </h1>
+    <a class="start_a" href="signup.html">
+      <button type="submit" class="start_button">Sign Up</a>
+    </button>
+
+  </div>
+
+  <div class="jumbotron ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+          <div class="card text-white bg-success mb-2" style="max-width: 20rem; height:10rem;">
+            <div class="card-header">
+              <a href="kri">KRI Assignment
+                <img width="40px" ; height: "10px"; src="../images/images.jpg"> </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Key Risk Indicators</h4>
+              <p class="card-text">Know how much risk you Company is prone to, by adding few Key Risk Indicators</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-danger mb-2" style="max-width: 20rem; height:10rem;">
+            <div class="card-header">
+              <a href="" style="color:black;">Mitigation Strategies
+                <img width="40px" ; height: "10px"; src="../images/images.jpg">
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Mitigation Strategies</h4>
+              <p class="card-text">Know how much risk you Company is prone to, by adding few Key Risk Indicators</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white bg-dark mb-2" style="max-width: 20rem; height:10rem;">
+            <div class="card-header">
+              <a href="kri.htm">Risk Category
+                <img width="40px" ; height: "10px"; src="../images/images.jpg">
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Risk Category</h4>
+              <p class="card-text">Check the risk category your firm falls in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-container" >
+    <h1> Recent analysis of Football Players</h1>
+    <canvas id="bar-chartcanvas"></canvas>
+  </div>
+  <hr>
+
+  <div class="chart-container" style="position: relative;">
+    <h1> Earthquake Prone Areas Graph</h1>
+    <canvas id="line-chartcanvas"></canvas>
+  </div>
+
+
+</body>
+
+</html>

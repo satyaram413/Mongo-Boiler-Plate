@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title> NX Risk Management</title>
+</head>
+
+<meta http-equip="content-type" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="https://bootswatch.com/4/materia/bootstrap.min.css" rel="stylesheet">
+
+
+<body>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+  <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"> KRI ID</th>
+      <th scope="col">Risk Category L1</th>
+      <th scope="col">Risk Category L2</th>
+      <th scope="col">Risk Category L3</th>
+      <th scope="col">Location</th>
+      <th scope="col">Bussiness Unit Function</th>
+      <th scope="col">KRI</th>
+      <th scope="col">KRI Value</th>
+      <th scope="col">Time Period</th>
+      
+      
+
+    </tr>
+  </thead>
+  <% for(var i=0;i<items.length;i++)
+  {
+
+  %>
+  <tbody>
+    <tr class="table-active">
+      <td> <%= items[i]._id %></td>
+      <td><%=items[i].RCL1 %></td>
+      <td><%=items[i].RCL2 %></td>
+      <td><%=items[i].RCL3 %></td>
+      <td><%=items[i].Loc %></td>
+      <td><%=items[i].BUF %></td>
+      <td><%=items[i].kri %></td>
+      <td><%=items[i].KV %></td>
+      <td><%=items[i].TP %></td>
+      
+    </tr>
+    <%}%>
+    
+   
+  </tbody>
+</table> 
+  </body>
+  </html>
+  

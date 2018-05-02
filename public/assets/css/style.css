@@ -1,0 +1,144 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    text-align: center;
+}
+.btn-space {
+    margin-right: 5px;
+    
+}
+#start_h1{
+    font-weight: 200;
+    font-size: 3em;
+    margin: 0 0 0.1em 0;
+    /* text-align:center; */
+    position: absolute;
+    top:250px;
+    left:16px;
+    font-family: Muli,Helvetica,Arial,sans-serif;
+}
+#start_img{
+    position:absolute;
+    top:400px;
+    left:285px;
+}
+.navbar-fixed-top{
+    position: fixed;
+    width: 100%;
+   overflow: auto;
+   z-index:1;
+   
+ 
+   
+}
+
+
+
+.start_button{
+    
+    margin:15px;
+    width: 15em;
+    height:4em;
+    position: absolute;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+    cursor:pointer;
+    display: inline-block;
+    border-color: white;
+    font-size: 00.75rem;
+    transition: .5s ease;
+    top: 43%;
+    left: 60%;
+    
+
+}
+.start_button:hover{
+    background-color:rgba(0, 255, 149, 0.938);
+    text-decoration:none;
+}
+.start_a{
+    color: white;
+    padding:0px;
+
+}
+.start_a:hover{
+    color:white;
+}
+#start_id{
+
+    background: linear-gradient(to left, #7e00af, hsl(345, 77%, 49%));
+}
+
+
+.btn{
+    height:15px;
+    border-radius:2px;
+    margin:5px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+p.card-text{
+    color:white;
+}
+.card-header a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.card-header a:hover{
+    color:green;
+    animation: alternate;
+}
+/* 
+@media (max-width:768px)
+{
+    #register{
+        display:block;
+    }
+} */
+                                                  /*Chart CSS*/                                        
+.chart-container {
+    width: 60vw;
+    height:70vh;
+    margin: 0 auto;
+    padding:10px;
+    
+}
+
+
+#wrapper { 
+    position:relative;
+    text-align:left;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom:0px;
+    }
+
+
+.pie-chart-container {
+    height: 360px;
+    width: 360px;
+    float: left;
+}
+.doughtnut-chart-container {
+    height: 360px;
+    width: 360px;
+    float: left;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0 0 0.1em 0;
+    text-align:center;
+  }
+  
+
